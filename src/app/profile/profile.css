@@ -1,0 +1,123 @@
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.stat-card {
+  padding: 24px;
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.stat-lives {
+  background-color: var(--card-bg);
+}
+
+.stat-gifted {
+  background-color: var(--primary);
+  color: white;
+}
+
+.stat-val {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.stat-label-card {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Philanthropic Journey */
+.journey-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.journey-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--card-bg);
+  border-radius: var(--radius-lg);
+  gap: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+}
+
+.journey-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.journey-info {
+  flex: 1;
+}
+
+.journey-amt {
+  text-align: right;
+}
+
+/* Credentials */
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.credential-card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border-bottom: 3px solid transparent;
+}
+
+.border-green {
+  border-bottom-color: var(--accent-green);
+}
+
+.border-blue {
+  border-bottom-color: var(--primary);
+}
+
+.border-orange {
+  border-bottom-color: var(--accent-orange);
+}
+
+.cred-icon-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.cred-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.cred-desc {
+  font-size: 0.65rem;
+  color: var(--muted);
+  line-height: 1.4;
+}

@@ -1,0 +1,61 @@
+export const mockOrphanages = [
+  {
+    id: "st-judes",
+    name: "St. Jude's Home for Children",
+    location: "2.4 miles away",
+    locationFull: "124 Hope Valley Rd, Nairobi",
+    description: "A peaceful sanctuary dedicated to providing holistic care and quality education to orphaned children since 1995.",
+    imageSrc: "/images/orphanage_building_1774963786090.png",
+    residentCount: 84,
+    residentLabel: "Children",
+    statusTitle: "High",
+    statusLabel: "Impact",
+    isPrimaryAction: false,
+    needs: [
+      { id: 'n1', title: 'Winter Clothes', desc: 'Coats, boots & sweaters', priority: 'URGENT', icon: 'shirt' },
+      { id: 'n2', title: 'School Books', desc: 'Grade 1-6 curriculum', priority: 'ESSENTIAL', icon: 'book' },
+      { id: 'n3', title: 'Medical Support', priority: 'ON GOING', icon: 'medkit' }
+    ],
+    mission: "To create a world where no child is left behind, ensuring access to quality education, healthcare, and a loving family environment.",
+    established: "1995",
+    founder: "Reverend Thomas Jude",
+    activities: ["Morning Assembly", "Math & Literacy Classes", "Vocational Training", "Gardening", "Evening Sports"],
+    previousDonors: ["Sarah L.", "Michael K.", "The Anderson Foundation", "Local Rotary Club"]
+  },
+  {
+    id: "oakwood",
+    name: "Oakwood Residential Center",
+    location: "5.1 miles away",
+    locationFull: "45 River St, Springfield",
+    description: "Specializing in trauma-informed care and vocational training for older teenagers transition to independent living.",
+    imageSrc: "/images/orphanage_classroom_1774963834327.png",
+    residentCount: 32,
+    residentLabel: "Teens",
+    statusTitle: "Vocation",
+    statusLabel: "Focused",
+    isPrimaryAction: false,
+    mission: "Equipping young adults with the tools for independence.",
+    established: "2004",
+    founder: "Dr. Amanda White",
+    activities: ["Carpentry Workshop", "Culinary Arts", "Therapy Sessions", "Financial Literacy Seminars"],
+    previousDonors: ["James W.", "Global Care Org.", "Emily R.", "TechCorp Inc."]
+  },
+  {
+    id: "green-pastures",
+    name: "Green Pastures Foundation",
+    location: "8.7 miles away",
+    locationFull: "78 Sunrise Blvd, Portland",
+    description: "A family-style living community focusing on early childhood development and nutritional excellence.",
+    imageSrc: "/images/orphanage_community_1774963854952.png",
+    residentCount: 120,
+    residentLabel: "Children",
+    statusTitle: "Expanding",
+    statusLabel: "Capacity",
+    isPrimaryAction: true,
+    mission: "Nurturing early childhood with love and solid nutrition.",
+    established: "2010",
+    founder: "Elena Rodriguez",
+    activities: ["Play Therapy", "Arts & Crafts", "Language Development", "Outdoor Exploration"],
+    previousDonors: ["David B.", "Community Church", "Jessica M."]
+  }
+];
